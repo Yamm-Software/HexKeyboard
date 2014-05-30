@@ -21,6 +21,10 @@
 		ED74C44E193939920053C664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C430193939920053C664 /* UIKit.framework */; };
 		ED74C456193939920053C664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED74C454193939920053C664 /* InfoPlist.strings */; };
 		ED74C458193939920053C664 /* YSOHexInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C457193939920053C664 /* YSOHexInputViewTests.m */; };
+		ED74C46A193939BF0053C664 /* deleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED74C464193939BF0053C664 /* deleteButton@2x.png */; };
+		ED74C46B193939BF0053C664 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ED74C465193939BF0053C664 /* LICENSE */; };
+		ED74C46C193939BF0053C664 /* YSOHexInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C467193939BF0053C664 /* YSOHexInputView.m */; };
+		ED74C46D193939BF0053C664 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED74C468193939BF0053C664 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,11 @@
 		ED74C453193939920053C664 /* YSOHexInputViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSOHexInputViewTests-Info.plist"; sourceTree = "<group>"; };
 		ED74C455193939920053C664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED74C457193939920053C664 /* YSOHexInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSOHexInputViewTests.m; sourceTree = "<group>"; };
+		ED74C464193939BF0053C664 /* deleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteButton@2x.png"; sourceTree = "<group>"; };
+		ED74C465193939BF0053C664 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		ED74C466193939BF0053C664 /* YSOHexInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSOHexInputView.h; sourceTree = "<group>"; };
+		ED74C467193939BF0053C664 /* YSOHexInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSOHexInputView.m; sourceTree = "<group>"; };
+		ED74C468193939BF0053C664 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +121,7 @@
 		ED74C432193939920053C664 /* YSOHexInputView */ = {
 			isa = PBXGroup;
 			children = (
+				ED74C462193939BF0053C664 /* hex keyboard */,
 				ED74C43B193939920053C664 /* YSOAppDelegate.h */,
 				ED74C43C193939920053C664 /* YSOAppDelegate.m */,
 				ED74C43E193939920053C664 /* Main.storyboard */,
@@ -150,6 +160,18 @@
 				ED74C454193939920053C664 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED74C462193939BF0053C664 /* hex keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C464193939BF0053C664 /* deleteButton@2x.png */,
+				ED74C465193939BF0053C664 /* LICENSE */,
+				ED74C466193939BF0053C664 /* YSOHexInputView.h */,
+				ED74C467193939BF0053C664 /* YSOHexInputView.m */,
+				ED74C468193939BF0053C664 /* README.md */,
+			);
+			path = "hex keyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +222,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Yamm Software Inc.";
 				TargetAttributes = {
+					ED74C428193939910053C664 = {
+						DevelopmentTeam = YTCA6NQWL7;
+					};
 					ED74C449193939920053C664 = {
 						TestTargetID = ED74C428193939910053C664;
 					};
@@ -229,6 +254,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED74C46B193939BF0053C664 /* LICENSE in Resources */,
+				ED74C46A193939BF0053C664 /* deleteButton@2x.png in Resources */,
+				ED74C46D193939BF0053C664 /* README.md in Resources */,
 				ED74C445193939920053C664 /* Images.xcassets in Resources */,
 				ED74C437193939920053C664 /* InfoPlist.strings in Resources */,
 				ED74C440193939920053C664 /* Main.storyboard in Resources */,
@@ -253,6 +281,7 @@
 				ED74C43D193939920053C664 /* YSOAppDelegate.m in Sources */,
 				ED74C443193939920053C664 /* YSOViewController.m in Sources */,
 				ED74C439193939920053C664 /* main.m in Sources */,
+				ED74C46C193939BF0053C664 /* YSOHexInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -379,10 +408,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSOHexInputView/YSOHexInputView-Prefix.pch";
 				INFOPLIST_FILE = "YSOHexInputView/YSOHexInputView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -392,10 +423,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "YSOHexInputView/YSOHexInputView-Prefix.pch";
 				INFOPLIST_FILE = "YSOHexInputView/YSOHexInputView-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

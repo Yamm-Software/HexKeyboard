@@ -7,8 +7,11 @@
 //
 
 #import "YSOViewController.h"
+#import "YSOHexInputView.h"
 
 @interface YSOViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *textField;
 
 @end
 
@@ -17,7 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.textField.inputView = [[YSOHexInputView alloc] initWithTextField:self.textField];
 }
 
 - (void)didReceiveMemoryWarning
