@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED74C42D193939910053C664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C42C193939910053C664 /* Foundation.framework */; };
+		ED74C42F193939920053C664 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C42E193939920053C664 /* CoreGraphics.framework */; };
+		ED74C431193939920053C664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C430193939920053C664 /* UIKit.framework */; };
+		ED74C437193939920053C664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED74C435193939920053C664 /* InfoPlist.strings */; };
+		ED74C439193939920053C664 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C438193939920053C664 /* main.m */; };
+		ED74C43D193939920053C664 /* YSOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C43C193939920053C664 /* YSOAppDelegate.m */; };
+		ED74C440193939920053C664 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED74C43E193939920053C664 /* Main.storyboard */; };
+		ED74C443193939920053C664 /* YSOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C442193939920053C664 /* YSOViewController.m */; };
+		ED74C445193939920053C664 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED74C444193939920053C664 /* Images.xcassets */; };
+		ED74C44C193939920053C664 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C44B193939920053C664 /* XCTest.framework */; };
+		ED74C44D193939920053C664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C42C193939910053C664 /* Foundation.framework */; };
+		ED74C44E193939920053C664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C430193939920053C664 /* UIKit.framework */; };
+		ED74C456193939920053C664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED74C454193939920053C664 /* InfoPlist.strings */; };
+		ED74C458193939920053C664 /* YSOHexInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C457193939920053C664 /* YSOHexInputViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED74C44F193939920053C664 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED74C421193939910053C664 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED74C428193939910053C664;
+			remoteInfo = YSOHexInputView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED74C429193939910053C664 /* YSOHexInputView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YSOHexInputView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED74C42C193939910053C664 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ED74C42E193939920053C664 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		ED74C430193939920053C664 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		ED74C434193939920053C664 /* YSOHexInputView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSOHexInputView-Info.plist"; sourceTree = "<group>"; };
+		ED74C436193939920053C664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED74C438193939920053C664 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED74C43A193939920053C664 /* YSOHexInputView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YSOHexInputView-Prefix.pch"; sourceTree = "<group>"; };
+		ED74C43B193939920053C664 /* YSOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSOAppDelegate.h; sourceTree = "<group>"; };
+		ED74C43C193939920053C664 /* YSOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSOAppDelegate.m; sourceTree = "<group>"; };
+		ED74C43F193939920053C664 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED74C441193939920053C664 /* YSOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YSOViewController.h; sourceTree = "<group>"; };
+		ED74C442193939920053C664 /* YSOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSOViewController.m; sourceTree = "<group>"; };
+		ED74C444193939920053C664 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED74C44A193939920053C664 /* YSOHexInputViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YSOHexInputViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED74C44B193939920053C664 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		ED74C453193939920053C664 /* YSOHexInputViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSOHexInputViewTests-Info.plist"; sourceTree = "<group>"; };
+		ED74C455193939920053C664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ED74C457193939920053C664 /* YSOHexInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSOHexInputViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED74C426193939910053C664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74C42F193939920053C664 /* CoreGraphics.framework in Frameworks */,
+				ED74C431193939920053C664 /* UIKit.framework in Frameworks */,
+				ED74C42D193939910053C664 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED74C447193939920053C664 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74C44C193939920053C664 /* XCTest.framework in Frameworks */,
+				ED74C44E193939920053C664 /* UIKit.framework in Frameworks */,
+				ED74C44D193939920053C664 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED74C420193939910053C664 = {
+			isa = PBXGroup;
+			children = (
+				ED74C432193939920053C664 /* YSOHexInputView */,
+				ED74C451193939920053C664 /* YSOHexInputViewTests */,
+				ED74C42B193939910053C664 /* Frameworks */,
+				ED74C42A193939910053C664 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED74C42A193939910053C664 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C429193939910053C664 /* YSOHexInputView.app */,
+				ED74C44A193939920053C664 /* YSOHexInputViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED74C42B193939910053C664 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C42C193939910053C664 /* Foundation.framework */,
+				ED74C42E193939920053C664 /* CoreGraphics.framework */,
+				ED74C430193939920053C664 /* UIKit.framework */,
+				ED74C44B193939920053C664 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED74C432193939920053C664 /* YSOHexInputView */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C43B193939920053C664 /* YSOAppDelegate.h */,
+				ED74C43C193939920053C664 /* YSOAppDelegate.m */,
+				ED74C43E193939920053C664 /* Main.storyboard */,
+				ED74C441193939920053C664 /* YSOViewController.h */,
+				ED74C442193939920053C664 /* YSOViewController.m */,
+				ED74C444193939920053C664 /* Images.xcassets */,
+				ED74C433193939920053C664 /* Supporting Files */,
+			);
+			path = YSOHexInputView;
+			sourceTree = "<group>";
+		};
+		ED74C433193939920053C664 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C434193939920053C664 /* YSOHexInputView-Info.plist */,
+				ED74C435193939920053C664 /* InfoPlist.strings */,
+				ED74C438193939920053C664 /* main.m */,
+				ED74C43A193939920053C664 /* YSOHexInputView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED74C451193939920053C664 /* YSOHexInputViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C457193939920053C664 /* YSOHexInputViewTests.m */,
+				ED74C452193939920053C664 /* Supporting Files */,
+			);
+			path = YSOHexInputViewTests;
+			sourceTree = "<group>";
+		};
+		ED74C452193939920053C664 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED74C453193939920053C664 /* YSOHexInputViewTests-Info.plist */,
+				ED74C454193939920053C664 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED74C428193939910053C664 /* YSOHexInputView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED74C45B193939920053C664 /* Build configuration list for PBXNativeTarget "YSOHexInputView" */;
+			buildPhases = (
+				ED74C425193939910053C664 /* Sources */,
+				ED74C426193939910053C664 /* Frameworks */,
+				ED74C427193939910053C664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YSOHexInputView;
+			productName = YSOHexInputView;
+			productReference = ED74C429193939910053C664 /* YSOHexInputView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED74C449193939920053C664 /* YSOHexInputViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED74C45E193939920053C664 /* Build configuration list for PBXNativeTarget "YSOHexInputViewTests" */;
+			buildPhases = (
+				ED74C446193939920053C664 /* Sources */,
+				ED74C447193939920053C664 /* Frameworks */,
+				ED74C448193939920053C664 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED74C450193939920053C664 /* PBXTargetDependency */,
+			);
+			name = YSOHexInputViewTests;
+			productName = YSOHexInputViewTests;
+			productReference = ED74C44A193939920053C664 /* YSOHexInputViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED74C421193939910053C664 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YSO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Yamm Software Inc.";
+				TargetAttributes = {
+					ED74C449193939920053C664 = {
+						TestTargetID = ED74C428193939910053C664;
+					};
+				};
+			};
+			buildConfigurationList = ED74C424193939910053C664 /* Build configuration list for PBXProject "YSOHexInputView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED74C420193939910053C664;
+			productRefGroup = ED74C42A193939910053C664 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED74C428193939910053C664 /* YSOHexInputView */,
+				ED74C449193939920053C664 /* YSOHexInputViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED74C427193939910053C664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74C445193939920053C664 /* Images.xcassets in Resources */,
+				ED74C437193939920053C664 /* InfoPlist.strings in Resources */,
+				ED74C440193939920053C664 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED74C448193939920053C664 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74C456193939920053C664 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED74C425193939910053C664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74C43D193939920053C664 /* YSOAppDelegate.m in Sources */,
+				ED74C443193939920053C664 /* YSOViewController.m in Sources */,
+				ED74C439193939920053C664 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED74C446193939920053C664 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED74C458193939920053C664 /* YSOHexInputViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED74C450193939920053C664 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED74C428193939910053C664 /* YSOHexInputView */;
+			targetProxy = ED74C44F193939920053C664 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED74C435193939920053C664 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED74C436193939920053C664 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ED74C43E193939920053C664 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED74C43F193939920053C664 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED74C454193939920053C664 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED74C455193939920053C664 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED74C459193939920053C664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ED74C45A193939920053C664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED74C45C193939920053C664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSOHexInputView/YSOHexInputView-Prefix.pch";
+				INFOPLIST_FILE = "YSOHexInputView/YSOHexInputView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ED74C45D193939920053C664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSOHexInputView/YSOHexInputView-Prefix.pch";
+				INFOPLIST_FILE = "YSOHexInputView/YSOHexInputView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ED74C45F193939920053C664 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSOHexInputView.app/YSOHexInputView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSOHexInputView/YSOHexInputView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "YSOHexInputViewTests/YSOHexInputViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		ED74C460193939920053C664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/YSOHexInputView.app/YSOHexInputView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "YSOHexInputView/YSOHexInputView-Prefix.pch";
+				INFOPLIST_FILE = "YSOHexInputViewTests/YSOHexInputViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED74C424193939910053C664 /* Build configuration list for PBXProject "YSOHexInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED74C459193939920053C664 /* Debug */,
+				ED74C45A193939920053C664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED74C45B193939920053C664 /* Build configuration list for PBXNativeTarget "YSOHexInputView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED74C45C193939920053C664 /* Debug */,
+				ED74C45D193939920053C664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED74C45E193939920053C664 /* Build configuration list for PBXNativeTarget "YSOHexInputViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED74C45F193939920053C664 /* Debug */,
+				ED74C460193939920053C664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ED74C421193939910053C664 /* Project object */;
+}
