@@ -21,10 +21,10 @@
 		ED74C44E193939920053C664 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED74C430193939920053C664 /* UIKit.framework */; };
 		ED74C456193939920053C664 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ED74C454193939920053C664 /* InfoPlist.strings */; };
 		ED74C458193939920053C664 /* YSOHexInputViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C457193939920053C664 /* YSOHexInputViewTests.m */; };
-		ED74C46A193939BF0053C664 /* deleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED74C464193939BF0053C664 /* deleteButton@2x.png */; };
-		ED74C46B193939BF0053C664 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ED74C465193939BF0053C664 /* LICENSE */; };
-		ED74C46C193939BF0053C664 /* YSOHexInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C467193939BF0053C664 /* YSOHexInputView.m */; };
-		ED74C46D193939BF0053C664 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED74C468193939BF0053C664 /* README.md */; };
+		ED74C473193941C20053C664 /* deleteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = ED74C46E193941C20053C664 /* deleteButton@2x.png */; };
+		ED74C474193941C20053C664 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = ED74C46F193941C20053C664 /* LICENSE */; };
+		ED74C475193941C20053C664 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = ED74C470193941C20053C664 /* README.md */; };
+		ED74C476193941C20053C664 /* YSOHexInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = ED74C472193941C20053C664 /* YSOHexInputView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,11 +57,11 @@
 		ED74C453193939920053C664 /* YSOHexInputViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "YSOHexInputViewTests-Info.plist"; sourceTree = "<group>"; };
 		ED74C455193939920053C664 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ED74C457193939920053C664 /* YSOHexInputViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YSOHexInputViewTests.m; sourceTree = "<group>"; };
-		ED74C464193939BF0053C664 /* deleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "deleteButton@2x.png"; sourceTree = "<group>"; };
-		ED74C465193939BF0053C664 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		ED74C466193939BF0053C664 /* YSOHexInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSOHexInputView.h; sourceTree = "<group>"; };
-		ED74C467193939BF0053C664 /* YSOHexInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSOHexInputView.m; sourceTree = "<group>"; };
-		ED74C468193939BF0053C664 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		ED74C46E193941C20053C664 /* deleteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "deleteButton@2x.png"; path = "YSOHexInputView/pod/deleteButton@2x.png"; sourceTree = SOURCE_ROOT; };
+		ED74C46F193941C20053C664 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = YSOHexInputView/pod/LICENSE; sourceTree = SOURCE_ROOT; };
+		ED74C470193941C20053C664 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README.md; path = YSOHexInputView/pod/README.md; sourceTree = SOURCE_ROOT; };
+		ED74C471193941C20053C664 /* YSOHexInputView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YSOHexInputView.h; path = YSOHexInputView/pod/YSOHexInputView.h; sourceTree = SOURCE_ROOT; };
+		ED74C472193941C20053C664 /* YSOHexInputView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YSOHexInputView.m; path = YSOHexInputView/pod/YSOHexInputView.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,11 +165,11 @@
 		ED74C462193939BF0053C664 /* hex keyboard */ = {
 			isa = PBXGroup;
 			children = (
-				ED74C464193939BF0053C664 /* deleteButton@2x.png */,
-				ED74C465193939BF0053C664 /* LICENSE */,
-				ED74C466193939BF0053C664 /* YSOHexInputView.h */,
-				ED74C467193939BF0053C664 /* YSOHexInputView.m */,
-				ED74C468193939BF0053C664 /* README.md */,
+				ED74C46E193941C20053C664 /* deleteButton@2x.png */,
+				ED74C46F193941C20053C664 /* LICENSE */,
+				ED74C470193941C20053C664 /* README.md */,
+				ED74C471193941C20053C664 /* YSOHexInputView.h */,
+				ED74C472193941C20053C664 /* YSOHexInputView.m */,
 			);
 			path = "hex keyboard";
 			sourceTree = "<group>";
@@ -254,12 +254,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ED74C46B193939BF0053C664 /* LICENSE in Resources */,
-				ED74C46A193939BF0053C664 /* deleteButton@2x.png in Resources */,
-				ED74C46D193939BF0053C664 /* README.md in Resources */,
+				ED74C475193941C20053C664 /* README.md in Resources */,
 				ED74C445193939920053C664 /* Images.xcassets in Resources */,
 				ED74C437193939920053C664 /* InfoPlist.strings in Resources */,
 				ED74C440193939920053C664 /* Main.storyboard in Resources */,
+				ED74C473193941C20053C664 /* deleteButton@2x.png in Resources */,
+				ED74C474193941C20053C664 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,7 +281,7 @@
 				ED74C43D193939920053C664 /* YSOAppDelegate.m in Sources */,
 				ED74C443193939920053C664 /* YSOViewController.m in Sources */,
 				ED74C439193939920053C664 /* main.m in Sources */,
-				ED74C46C193939BF0053C664 /* YSOHexInputView.m in Sources */,
+				ED74C476193941C20053C664 /* YSOHexInputView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +492,7 @@
 				ED74C45D193939920053C664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED74C45E193939920053C664 /* Build configuration list for PBXNativeTarget "YSOHexInputViewTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +501,7 @@
 				ED74C460193939920053C664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
